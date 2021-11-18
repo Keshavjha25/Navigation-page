@@ -1,0 +1,10 @@
+.card{
+    display: grid;
+}
+.div0{
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-items: center;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+          
+            display: grid;
+            grid-template-areas: 'a b'
+                                 'c d'
+                                 'e f '
+                                 '. .';
+            grid-gap: 20px;
+        }
+        .container div{
+            background: turquoise;
+            color: tomato;
+            
+        }
+
+        .item1{
+            grid-area: a
+        }
+        .item2{
+            grid-area: b
+        }
+        .item3{
+            grid-area: c
+        }
+        .item4{
+            grid-area: d
+        }
+        .item5{
+            grid-area: e
+        }
+        .item6{
+            grid-area: f
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="item1">item a</div>
+        <div class="item2">item b</div>
+        <div class="item3">item c</div>
+        <div class="item4">item d </div>
+        <div class="item5">item e </div>
+        <div class="item6"> item f</div>
+    </div>
+</body>
+</html>
